@@ -11,8 +11,8 @@
 :root {
     --background-color: #ffffff; /* Background color for the entire website, including individual sections */
     --default-color: #444444; /* Default color used for the majority of the text content across the entire website */
-    --heading-color: #37517e; /* Color for headings, subheadings and title throughout the website */
-    --accent-color: #47b2e4; /* Accent color that represents your brand on the website. It's used for buttons, links, and other elements that need to stand out */
+    --heading-color: #4c8055; /* Color for headings, subheadings and title throughout the website */
+    --accent-color: #68a4a5; /* Accent color that represents your brand on the website. It's used for buttons, links, and other elements that need to stand out */
     --surface-color: #ffffff; /* The surface color is used as a background of boxed elements within sections, such as cards, icon boxes, or other elements that require a visual separation from the global background. */
     --contrast-color: #ffffff; /* Contrast color for text, ensuring readability against backgrounds of accent, heading, or default colors. */
 }
@@ -20,11 +20,11 @@
 /* Nav Menu Colors - The following color variables are used specifically for the navigation menu. They are separate from the global colors to allow for more customization options */
 :root {
     --nav-color: #ffffff; /* The default color of the main navmenu links */
-    --nav-hover-color: #47b2e4; /* Applied to main navmenu links when they are hovered over or active */
+    --nav-hover-color: #68a4a5; /* Applied to main navmenu links when they are hovered over or active */
     --nav-mobile-background-color: #ffffff; /* Used as the background color for mobile navigation menu */
     --nav-dropdown-background-color: #ffffff; /* Used as the background color for dropdown items that appear when hovering over primary navigation items */
     --nav-dropdown-color: #444444; /* Used for navigation links of the dropdown items in the navigation menu. */
-    --nav-dropdown-hover-color: #47b2e4; /* Similar to --nav-hover-color, this color is applied to dropdown navigation links when they are hovered over. */
+    --nav-dropdown-hover-color: #68a4a5; /* Similar to --nav-hover-color, this color is applied to dropdown navigation links when they are hovered over. */
 }
 
 /* Color Presets - These classes override global colors when applied to any section or element, providing reuse of the sam color scheme. */
@@ -35,7 +35,7 @@
 }
 
 .dark-background {
-    --background-color: #37517e;
+    --background-color: #4c8055;
     --default-color: #ffffff;
     --heading-color: #ffffff;
     --surface-color: #4668a2;
@@ -2116,12 +2116,12 @@ section,
     display: none;
 }
 .cookie-wrapper header i {
-    color: #37517e;
+    color: #4c8055;
     font-size: 32px;
     text-align: center;
 }
 .cookie-wrapper header h2 {
-    color: #37517e;
+    color: #4c8055;
     font-weight: 500;
     text-align: center;
 }
@@ -2129,7 +2129,7 @@ section,
     text-align: center;
 }
 .data p a {
-    color: #37517e;
+    color: #4c8055;
     text-decoration: none;
     text-align: center !important;
 }
@@ -2141,10 +2141,10 @@ section,
     text-align: center;
 }
 .buttons .cookie-button {
-    border: 2px solid #37517e;
+    border: 2px solid #4c8055;
     color: #fff;
     padding: 8px 0;
-    background: #37517e;
+    background: #4c8055;
     cursor: pointer;
     width: calc(100% / 2 - 10px);
     transition: all 0.2s ease;
@@ -2153,18 +2153,18 @@ section,
 }
 .buttons #acceptBtn:hover {
     background-color: transparent;
-    color: #37517e;
+    color: #4c8055;
 }
 #declineBtn {
     background-color: #fff;
-    color: #37517e;
+    color: #4c8055;
     border-radius: 30px;
 }
 #declineBtn:hover {
-    background-color: #37517e;
+    background-color: #4c8055;
     color: #fff;
 }
 #result {
-    color: #37517e;
+    color: #4c8055;
     font-size: 14px;
 }
